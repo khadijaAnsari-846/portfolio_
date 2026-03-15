@@ -49,7 +49,7 @@ export default function Projects() {
               title={project.title}
               objective={project.objective}
               stack={project.stack}
-              status={project.status || "completed"}
+              status={project.status as "completed" | "coming-soon"}
             />
           ))}
         </div>
