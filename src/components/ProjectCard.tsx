@@ -3,7 +3,7 @@ import { Code } from "lucide-react";
 interface ProjectCardProps {
   title: string;
   objective: string;
-  stack: string;
+  stack: string[];
   status?: "completed" | "coming-soon";
 }
 
@@ -22,10 +22,19 @@ export default function ProjectCard({ title, objective, stack, status = "complet
         <p className="text-white/90 text-sm leading-relaxed">{objective}</p>
       </div>
 
-      {/* Stack Section */}
+      {/* Stack Section - FIXED */}
       <div className="mb-6 text-left flex-grow">
-        <span className="text-xs font-medium text-gray-400 uppercase tracking-wider block mb-1">STACK</span>
-        <p className="text-white/90 text-sm leading-relaxed">{stack}</p>
+        <span className="text-xs font-medium text-gray-400 uppercase tracking-wider block mb-2">STACK</span>
+        <div className="flex flex-wrap gap-1.5">
+          {stack.map((tech, index) => (
+            <span
+              key={index}
+              className="text-xs bg-pink-500/10 text-pink-300 px-2 py-1 rounded-full border border-pink-300/20"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
       </div>
 
       {/* Status Button */}
