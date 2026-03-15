@@ -1,24 +1,14 @@
-# AI/ML Portfolio - Prajeeth H
+# AI/ML Portfolio 
 
 A modern, responsive portfolio website for an AI/ML Engineer and Python Developer built with Next.js, TypeScript, and Tailwind CSS.
 
-## Features
 
-- 🎨 Modern glassmorphism design with lofi aesthetics
-- 📱 Fully responsive layout
-- ⚡ Fast page loads with Next.js
-- 🎭 Smooth animations and transitions
-- 📝 Typing animation in hero section
-- 📊 Skill progress bars with animations
-- 🔗 Social media integration
-- 📄 Downloadable resume
+# Add and commit your local README.md
+git add README.md
+git commit -m "Update README.md"
 
-## Tech Stack
+# Now pull the remote changes
+git pull origin main --allow-unrelated-histories
 
-- **Framework:** Next.js 15
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Icons:** Lucide React
-- **Deployment:** Vercel (recommended)
-
-## Project Structure
+# Push your changes
+git push -u origin main
