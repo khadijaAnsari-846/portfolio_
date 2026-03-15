@@ -41,7 +41,7 @@ const skillsData = {
     { name: "Postman", category: "API Testing • Request Building, Collections, Environment Variables, Automation, Documentation" },
     { name: "anti-gravity", category: "Humor • Reference to XKCD comic, Python's Easter egg (import antigravity)" },
     { name: "Claude", category: "AI Assistant • Claude AI by Anthropic, Prompt Engineering, AI Collaboration, Problem Solving" },
-    { name: "n8n", description: "Workflow automation, AI integrations, Node-based automation, API connections, Data transformation, Webhook handling" }
+    { name: "n8n", category: "Workflow automation, AI integrations, Node-based automation, Data transformation, Webhook handling" }
 
   ]
 };
